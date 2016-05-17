@@ -6,7 +6,7 @@ monthday=`date --date='1 days ago' +%Y-%m`
 backpath=/mnt/log_backup
 tomcatlog=/mnt/tomcat_log
 tomcatpath=/opt/apache-tomcat-8.0.26/logs
-mailtopath=/home/botao_song/script/netIO
+mailtopath=/home/*****/script/netIO
 logtype=(errorlog debug lovebar reward)
 liveDay=10
 MvErr=7
@@ -88,4 +88,4 @@ AccessFunc
 DelLog
 
 #mail report
-cat ${mailtopath}/${yesterday}.txt | mail -s "Report ${yesterday}" songbotao@chuangqish.com
+cat ${mailtopath}/${yesterday}.txt | mail -s "Report ${yesterday}" ******@*****.com
