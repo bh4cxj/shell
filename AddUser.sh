@@ -25,7 +25,7 @@ function AddUser () {
         mkdir /home/${user}/.ssh && chmod 700 /home/${user}/.ssh
         touch /home/${user}/.ssh/authorized_keys && chmod 644 /home/${user}/.ssh/authorized_keys
         pubkey="${user}key"
-        echo ${!pubkey} >> /home/${user}/.ssh/authorized_keys
+        echo ${!pubkey} > /home/${user}/.ssh/authorized_keys
         chown -R ${user}:${user} /home/${user}
     done
 }
