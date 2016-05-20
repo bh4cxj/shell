@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-username=(libo_ding xiuting_dai youbin_zeng botao_song guofuz)
+username=(libo_ding xiuting_dai botao_song)
 #username=(botao_song)
 #group=develop
 libo_dingkey='ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu1Yi3CDCb1pz8vNgSmBpYXvn2JkaLJ3pZaQaCmG6/EQM5SeVFLKYHpxynwxNqdAyZj2sPVPmre0M++Vu2Bk6dKV9FSjPwebRW5YGIuYhauLXm4D5iN5k4aIVomDAvYpFt/GkEyDGcNNg+RI2nUg39UyITmsvU+Zwv+VU3uRYwG9gDWN5m7RCBez0Kfno/2d6DarZ/X5xiRyn2dNLrz/7dizej0TPlTnfiSw1RwErFEgvNyz8gUB0+4r713fWGTKXkhXKHcwMtlBDP2uO9rXj1j3xDOPj6kmKzcgFIr8IcA9zVAGxT0FRg0bCPUtkqx4vAkYiE3iQCThDBipMv4jQ9 libo.ding@libo.ding@qq.com'
